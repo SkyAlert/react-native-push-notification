@@ -71,8 +71,10 @@ In your `AndroidManifest.xml`
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application ....>
+        <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_id"
+                    android:value="YOUR NOTIFICATION CHANNEL ID"/>
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-                android:value="YOUR NOTIFICATION CHANNEL NAME"/>
+                    android:value="YOUR NOTIFICATION CHANNEL NAME"/>
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_description"
                     android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION"/>
         <!-- Change the resource name to your App's accent color - or any other color you want -->
